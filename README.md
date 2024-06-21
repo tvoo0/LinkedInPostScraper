@@ -31,11 +31,11 @@ Those keys will be inputed into a .env file to ensure safety and security.
 
 ### find_keywords.py
 
-This file is in charge of searching taking the input of the user and finding keywords and/or phrases from it. THe funciton uses the Llama 3 Groq API to determine the keywords. The role of the API has been altered to only output a list of words. That list of words is returned where it will be sent to create_search.py
+This file is in charge of searching taking the input of the user and finding keywords and/or phrases from it. The funciton uses the Llama 3 Groq API to determine the keywords. The role of the API has been altered to only output a list of words. That list of words is returned where it will be sent to create_search.py
 
 ### create_search.py
 
-This file takes the list from the previous file and combines them into a valid google search query making sure to only search for posts from LinkedIn. The ourput of the function will be sent to google_search_api.py.
+This file takes the list from the previous file and combines them into a valid google search query making sure to only search for posts from LinkedIn. The output of the function will be sent to google_search_api.py.
 
 ### google_search_api.py
 
